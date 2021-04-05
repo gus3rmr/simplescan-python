@@ -1,6 +1,6 @@
 #### This tool looks for valid subdomains for the given domain using the requests module in python, then it saves a .txt file with the list of subdomains found and starts scanning them to know their web technology using the tool Wappy, this scan will show you the version of the technology/framework used by the subdomain, category and confidence of it.
 
-###### This is a private project just to show a liitle bit of my knowledge to the SOIN team.
+###### This is a project just to show a little bit of my knowledge to the SOIN team.
 
 #### Requirements:
 
