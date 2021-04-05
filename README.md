@@ -16,6 +16,13 @@ or
 pip3 install -r requirements.txt
 ```
 
+#### Installation:
+```bash
+git clone https://github.com/hiddenpayload/soin.git
+cd /soin
+chmod +x soin.py
+```
+
 #### Usage:
 
 ##### You will need to provide 2 arguments when executing the program: a domain and a subdomains dictionary in .txt format.
