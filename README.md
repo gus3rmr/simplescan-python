@@ -4,7 +4,7 @@
 
 #### Requirements:
 
-##### In order to run this program you should have the requests module istalled in your computer.
+##### In order to run this program you should have the requests module installed in your computer.
 ##### In case you need to install it you can do it using the requirements.txt file that I am including here using the following commands:
 
 ##### For Windows, macOS and Linux.
@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 
 #### Usage:
 
-##### You will need to provide 2 arguments: a domain and a subdomains dictionary in .txt.
+##### You will need to provide 2 arguments when executing the program: a domain and a subdomains dictionary in .txt format.
 
 #### Example:
 ```bash
