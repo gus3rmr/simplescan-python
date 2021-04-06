@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 ```bash
 git clone https://github.com/hiddenpayload/soin.git
 cd /soin
-chmod +x soin.py
+chmod +x script.py
 ```
 
 #### Usage:
@@ -28,5 +28,5 @@ chmod +x soin.py
 
 #### Example:
 ```bash
-python3 soin.py tesla.com subdomains_dictionary.txt
+python3 script.py tesla.com subdomains_dictionary.txt
 ```
