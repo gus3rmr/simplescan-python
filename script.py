@@ -39,7 +39,7 @@ def find_subdomain_and_scan(domain, txt_file):
 if len(sys.argv) < 3:
     print("\nYou did not provide any argument or there is a missing argument!")
     print("\nSyntax example:")
-    print("\npython3 soin.py google.com subdomains_dictionary.txt\n")
+    print("\npython3 script.py google.com subdomains_dictionary.txt\n")
 else:
     domain = sys.argv[1]
     txt_file = sys.argv[2]
