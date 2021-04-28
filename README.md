@@ -17,8 +17,8 @@ pip3 install -r requirements.txt
 
 #### Installation:
 ```bash
-git clone https://github.com/hiddenpayload/soin.git
-cd /soin
+git clone https://github.com/gus3rmr/simplescan.git
+cd /simplescan
 chmod +x script.py
 ```
 
