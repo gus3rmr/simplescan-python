@@ -29,8 +29,8 @@ def find_subdomain_and_scan(domain, txt_file):
             final_subdomain = i.strip()
             complete_subdomain = "https://" + final_subdomain
             try:
-                print(f"\nScanning {complete_subdomain} for web technologies...\n")
-                os.system(f"sudo wappy {complete_subdomain} -kbc -d '-'")
+                print(f"\nScanning {complete_subdomain}...\n")
+                os.system(f"whatweb {complete_subdomain}")
             except (FileExistsError, FileNotFoundError, ConnectionError):
                 pass
 
@@ -42,4 +42,4 @@ else:
     domain = sys.argv[1]
     txt_file = sys.argv[2]
     find_subdomain_and_scan(domain, txt_file)
-    print("\nExit.")
+    print("\Done, happy hacking.")
