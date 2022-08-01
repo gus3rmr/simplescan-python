@@ -42,4 +42,4 @@ else:
     domain = sys.argv[1]
     txt_file = sys.argv[2]
     find_subdomain_and_scan(domain, txt_file)
-    print("\nExit.")
+    print("\Done, happy hacking.")
